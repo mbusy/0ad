@@ -70,7 +70,7 @@ const u8* CNetMessage::Deserialize(const u8* pStart, const u8* pEnd)
 	// TODO: dirty, investigate why this test fails for a saved game start
 	// message. Note, even if the test fails the multiplayer game can be
 	// correctly loaded 
-	if (!m_Type == NMT_SAVED_GAME_START)
+	if (m_Type != NMT_SAVED_GAME_START)
 	{
 		if (pStart + size != pEnd)
 		{
