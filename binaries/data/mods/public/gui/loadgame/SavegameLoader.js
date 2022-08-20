@@ -68,7 +68,6 @@ class SavegameLoader
 
 	reallyLoadGame(gameId)
 	{
-		//TODO, add security preventing to load multiplayer games
 		let metadata = Engine.StartSavedGame(gameId);
 		if (!metadata)
 		{

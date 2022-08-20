@@ -85,7 +85,7 @@ JS::Value ParseSavedGame(const ScriptInterface& scriptInterface, const std::wstr
 	std::string savedState;
 	Status err = SavedGames::Load(name, scriptInterface, &guiContextMetadata, savedState);
 
-	if (err < 0)
+	if (err != INFO::OK)
 		return JS::UndefinedValue();
 	
 	return guiContextMetadata;

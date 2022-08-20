@@ -298,6 +298,12 @@ private:
 	void SetAndOwnSession(CNetClientSession* session);
 
 	/**
+	 * Starts a game with the specified init attributes and saved state. Called
+	 * by the start game and start saved game callbacks. 
+	 */
+	static void StartGame(void* context, const std::string& initAttributes, const std::string& savedState);
+
+	/**
 	 * Push a message onto the GUI queue listing the current player assignments.
 	 */
 	void PostPlayerAssignmentsToScript();

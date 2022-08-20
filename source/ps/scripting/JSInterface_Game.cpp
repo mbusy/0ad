@@ -38,10 +38,7 @@ namespace JSI_Game
 {
 bool IsGameStarted()
 {
-	if (g_Game != nullptr)
-		return g_Game->IsGameStarted();
-	else
-		return false;
+	return g_Game && g_Game->IsGameStarted();
 }
 
 void StartGame(const ScriptInterface& guiInterface, JS::HandleValue attribs, int playerID, bool storeReplay)

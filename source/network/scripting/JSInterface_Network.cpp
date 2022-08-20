@@ -279,7 +279,7 @@ void StartNetworkSavedGame(const ScriptInterface& scriptInterface, const std::ws
 	std::string savedState;
 	Status err = SavedGames::Load(name, scriptInterface, &guiContextMetadata, savedState);
 
-	if (err < 0)
+	if (err != INFO::OK)
 		ScriptException::Raise(rq, "Failed to load the saved game");
 
 	g_NetClient->SendStartSavedGameMessage(Script::StringifyJSON(rq, &attribs), savedState);

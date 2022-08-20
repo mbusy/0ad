@@ -122,7 +122,6 @@ LoadGameButton.prototype.Caption =
     "clear" : translate("Clear Save")
 };
 
-// TODO: needs translation
 LoadGameButton.prototype.Tooltip = 
 {
     "load" : translate("Load a previously created game. You will still have to press start after having loaded the game data"),

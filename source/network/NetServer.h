@@ -257,6 +257,12 @@ private:
 	void AssignPlayer(int playerID, const CStr& guid);
 
 	/**
+	 * Switch in game mode. The clients will have to be notified to start the
+	 * game. This method is called by StartGame and StartSavedGame 
+	 */
+	void PreStartGame(const CStr& initAttribs);
+
+	/**
 	 * Switch in game mode and notify all clients to start the game.
 	 */
 	void StartGame(const CStr& initAttribs);
