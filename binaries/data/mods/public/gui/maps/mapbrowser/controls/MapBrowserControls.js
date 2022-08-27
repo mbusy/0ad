@@ -8,8 +8,6 @@ class MapBrowserPageControls
 		this.mapBrowserPage = mapBrowserPage;
 		this.gridBrowser = gridBrowser;
 		this.setupWindow = setupWindow;
-		
-		this.originalCloseSize = undefined;
 
 		this.setupButtons();
 
