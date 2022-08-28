@@ -13,7 +13,7 @@ class GameSettingControlCheckbox extends GameSettingControl
 
 	onSettingsChanged()
 	{
-		let enabled = g_IsController && !g_isSaveLoaded;
+		const enabled = g_IsController && !g_isSaveLoaded;
 		this.setEnabled(enabled);
 	}
 

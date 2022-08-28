@@ -20,11 +20,11 @@ class MapBrowserPageControls
 
 	onSettingsChanged()
 	{
-		// If the player isn't the controller or if save data has been loaded, 
+		// If the player isn't the controller or if save data has been loaded,
 		// hide the pickRandom and select buttons, update the size of the close
 		// button
-		let hidden = !g_IsController || g_isSaveLoaded;
- 
+		const hidden = !g_IsController || g_isSaveLoaded;
+
 		this.pickRandom.hidden = hidden;
 		this.select.hidden = hidden;
 

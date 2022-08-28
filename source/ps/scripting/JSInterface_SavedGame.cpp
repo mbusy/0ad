@@ -1,4 +1,4 @@
-/* Copyright (C) 2021 Wildfire Games.
+/* Copyright (C) 2022 Wildfire Games.
  * This file is part of 0 A.D.
  *
  * 0 A.D. is free software: you can redistribute it and/or modify
@@ -87,7 +87,7 @@ JS::Value ParseSavedGame(const ScriptInterface& scriptInterface, const std::wstr
 
 	if (err != INFO::OK)
 		return JS::UndefinedValue();
-	
+
 	return guiContextMetadata;
 }
 

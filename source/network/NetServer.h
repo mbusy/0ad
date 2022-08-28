@@ -258,7 +258,7 @@ private:
 
 	/**
 	 * Switch in game mode. The clients will have to be notified to start the
-	 * game. This method is called by StartGame and StartSavedGame 
+	 * game. This method is called by StartGame and StartSavedGame
 	 */
 	void PreStartGame(const CStr& initAttribs);
 

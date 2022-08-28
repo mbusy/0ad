@@ -16,7 +16,7 @@ PlayerSettingControls.PlayerCiv = class PlayerCiv extends GameSettingControlDrop
 
 	onSettingsChanged()
 	{
-		let enabled = g_IsController && !g_GameSettings.playerCiv.locked[this.playerIndex] && !g_isSaveLoaded;
+		const enabled = g_IsController && !g_GameSettings.playerCiv.locked[this.playerIndex] && !g_isSaveLoaded;
 		this.setEnabled(enabled);
 	}
 

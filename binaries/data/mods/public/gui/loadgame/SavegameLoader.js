@@ -95,8 +95,8 @@ class SavegameLoader
 		// mutliplayer gamesetup while the page is popped. The game won't be
 		// started from here
 
-		let metadata = Engine.ParseSavedGame(gameId);
-		Engine.PopGuiPage({"gameId": gameId, "metadata": metadata});
+		const metadata = Engine.ParseSavedGame(gameId);
+		Engine.PopGuiPage({ "gameId": gameId, "metadata": metadata });
 		return;
 	}
 }

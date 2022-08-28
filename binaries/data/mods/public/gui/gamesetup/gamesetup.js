@@ -37,7 +37,7 @@ var g_isSaveLoaded;
  * multiplayer gamesetup. If no save has been loaded, or if the loaded save is
  * cleared, this variable will be undefined
  */
- var g_savedGameId;
+var g_savedGameId;
 
 /**
  * Whether this is a single- or multiplayer match.

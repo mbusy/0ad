@@ -6,7 +6,7 @@ SetupWindowPages.GameSetupPage = class
 	constructor(setupWindow)
 	{
 		Engine.ProfileStart("GameSetupPage");
-		
+
 		// No save data has been loaded for now
 		g_isSaveLoaded = false;
 		g_savedGameId = undefined;
@@ -16,10 +16,10 @@ SetupWindowPages.GameSetupPage = class
 
 		// These classes manage GUI buttons.
 		{
-			let loadGameButton = new LoadGameButton(setupWindow);
-			let startGameButton = new StartGameButton(setupWindow, loadGameButton);
-			let readyButton = new ReadyButton(setupWindow, loadGameButton);
-			let cancelButton = new CancelButton(setupWindow, startGameButton, readyButton)
+			const loadGameButton = new LoadGameButton(setupWindow);
+			const startGameButton = new StartGameButton(setupWindow, loadGameButton);
+			const readyButton = new ReadyButton(setupWindow, loadGameButton);
+			const cancelButton = new CancelButton(setupWindow, startGameButton, readyButton);
 			this.panelButtons = {
 				"civInfoButton": new CivInfoButton(),
 				"lobbyButton": new LobbyButton(),

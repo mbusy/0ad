@@ -10,7 +10,7 @@ PlayerSettingControls.PlayerColor = class PlayerColor extends GameSettingControl
 
 	onSettingsChanged()
 	{
-		let enabled = g_IsController && g_GameSettings.map.type !== "scenario" && !g_isSaveLoaded;
+		const enabled = g_IsController && g_GameSettings.map.type !== "scenario" && !g_isSaveLoaded;
 		this.setEnabled(enabled);
 	}
 

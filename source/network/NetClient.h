@@ -1,4 +1,4 @@
-/* Copyright (C) 2021 Wildfire Games.
+/* Copyright (C) 2022 Wildfire Games.
  * This file is part of 0 A.D.
  *
  * 0 A.D. is free software: you can redistribute it and/or modify
@@ -299,7 +299,7 @@ private:
 
 	/**
 	 * Starts a game with the specified init attributes and saved state. Called
-	 * by the start game and start saved game callbacks. 
+	 * by the start game and start saved game callbacks.
 	 */
 	static void StartGame(void* context, const std::string& initAttributes, const std::string& savedState);
 

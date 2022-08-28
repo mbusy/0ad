@@ -52,7 +52,7 @@ class GameSettingControl /* extends Profilable /* Uncomment to profile controls 
 
 		if (this.onSettingsLoaded)
 			this.gameSettingsController.registerSettingsLoadedHandler(this.onSettingsLoaded.bind(this));
-		
+
 		if (this.onSettingsChanged)
 			this.gameSettingsController.registerSettingsChangeHandler(this.onSettingsChanged.bind(this));
 

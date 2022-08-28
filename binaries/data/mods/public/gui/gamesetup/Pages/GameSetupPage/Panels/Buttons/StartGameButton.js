@@ -30,8 +30,8 @@ class StartGameButton
 		// isn't the controller
 		this.startGameButton.size = this.buttonPositions[
 			this.buttonPositions[2].children.every(button => button.hidden) ? 1 : 0].size;
-		
-		for (let handler of this.buttonHiddenChangeHandlers)
+
+		for (const handler of this.buttonHiddenChangeHandlers)
 			handler();
 	}
 

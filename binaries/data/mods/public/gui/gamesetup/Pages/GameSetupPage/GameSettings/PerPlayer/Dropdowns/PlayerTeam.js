@@ -26,7 +26,7 @@ PlayerSettingControls.PlayerTeam = class PlayerTeam extends GameSettingControlDr
 
 	onSettingsChanged()
 	{
-		let enabled = g_IsController && g_GameSettings.map.type != "scenario" && !g_isSaveLoaded;
+		const enabled = g_IsController && g_GameSettings.map.type != "scenario" && !g_isSaveLoaded;
 		this.setEnabled(enabled);
 	}
 

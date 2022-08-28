@@ -33,8 +33,8 @@ class ReadyButton
 		// Resizing the ready button if the load button is hidden
 		this.readyButton.size = this.buttonPositions[
 			this.buttonPositions[2].children.every(button => button.hidden) ? 1 : 0].size;
-		
-		for (let handler of this.buttonHiddenChangeHandlers)
+
+		for (const handler of this.buttonHiddenChangeHandlers)
 			handler();
 	}
 

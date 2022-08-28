@@ -36,7 +36,7 @@ PlayerSettingControls.PlayerAssignment = class PlayerAssignment extends GameSett
 
 	onSettingsChanged()
 	{
-		let enabled = g_IsController;
+		const enabled = g_IsController;
 		this.setEnabled(enabled);
 	}
 

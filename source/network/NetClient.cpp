@@ -527,10 +527,10 @@ void CNetClient::SendStartSavedGameMessage(const CStr& initAttribs, const CStr& 
 {
 	CGameSavedStartMessage gameSavedStart;
 	gameSavedStart.m_InitAttributes = initAttribs;
-	
+
 	std::string compressed;
 	CompressZLib(savedState, compressed, true);
-	
+
 	gameSavedStart.m_SavedState = compressed;
 	SendMessage(&gameSavedStart);
 }
@@ -843,7 +843,7 @@ bool CNetClient::OnGameStart(void* context, CFsmEvent* event)
 bool CNetClient::OnSavedGameStart(void* context, CFsmEvent* event)
 {
 	ENSURE(event->GetType() == static_cast<uint>(NMT_SAVED_GAME_START));
-	std::string state;	
+	std::string state;
 	CGameSavedStartMessage* message = static_cast<CGameSavedStartMessage*>(event->GetParamRef());
 
 	DecompressZLib(message->m_SavedState, state, true);
