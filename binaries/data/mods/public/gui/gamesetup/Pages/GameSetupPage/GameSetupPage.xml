@@ -87,12 +87,12 @@
 			</object>
 
 			<object	size="150 0 290 100%">
-				<include file="gui/gamesetup/Pages/GameSetupPage/Panels/Buttons/ReadyButton.xml"/>
-				<include file="gui/gamesetup/Pages/GameSetupPage/Panels/Buttons/StartGameButton.xml"/>
+				<include file="gui/gamesetup/Pages/GameSetupPage/Panels/Buttons/LoadGameButton.xml"/>
 			</object>
 
 			<object	size="300 0 440 100%">
-				<include file="gui/gamesetup/Pages/GameSetupPage/Panels/Buttons/LoadGameButton.xml"/>
+				<include file="gui/gamesetup/Pages/GameSetupPage/Panels/Buttons/ReadyButton.xml"/>
+				<include file="gui/gamesetup/Pages/GameSetupPage/Panels/Buttons/StartGameButton.xml"/>
 			</object>
 
 		</object>
