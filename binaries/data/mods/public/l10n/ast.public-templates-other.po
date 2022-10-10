@@ -31,17 +31,17 @@ msgstr "Stadu d’applicacion"
 #: simulation/data/attack_effects/capture.jsondescription
 msgctxt "effect caused by an attack"
 msgid "Reduces capture points of a target."
-msgstr "Reduz la fidelidá de l obiectivu."
+msgstr "Reduz la fidelidade de l obiectivu."
 
 #: simulation/data/attack_effects/capture.jsonname
 msgctxt "effect caused by an attack"
 msgid "Capture"
-msgstr "Posseadura"
+msgstr "Posseu"
 
 #: simulation/data/attack_effects/damage.jsondescription
 msgctxt "effect caused by an attack"
 msgid "Reduces the health of a target."
-msgstr "Reduz la vitalidá de l obiectivu."
+msgstr "Reduz la vitalidade de l obiectivu."
 
 #: simulation/data/attack_effects/damage.jsonname
 msgctxt "effect caused by an attack"
@@ -51,17 +51,17 @@ msgstr "Danho"
 #: simulation/data/damage_types/crush.jsondescription
 msgctxt "damage type"
 msgid "Damage caused by sheer force, like with a club or by trampling."
-msgstr "Danho fralyante, cumo l que fhazen las clavas, la calcadura."
+msgstr "Danho frayante, cumo l que fhazen las clavas, la calcadura."
 
 #: simulation/data/damage_types/crush.jsonname
 msgctxt "damage type"
 msgid "Crush"
-msgstr "Fralyura"
+msgstr "Frayura"
 
 #: simulation/data/damage_types/fire.jsondescription
 msgctxt "damage type"
 msgid "Damage caused by burning objects, like a torch or a flaming arrow."
-msgstr "Danho queimante, cumo l que fhazen los fhatxos, las saietas ardientes."
+msgstr "Danho queimante, cumo l que fhazen los fhatsos, las saietas ardientes."
 
 #: simulation/data/damage_types/fire.jsonname
 msgctxt "damage type"
@@ -83,12 +83,12 @@ msgstr "Corte"
 #: simulation/data/damage_types/pierce.jsondescription
 msgctxt "damage type"
 msgid "Damage caused by sharp pointy objects, like arrows or spears."
-msgstr "Danho perforante, cumo l que fhazen las saietas, las hastas."
+msgstr "Danho fhorante, cumo l que fhazen las saietas, las hastas."
 
 #: simulation/data/damage_types/pierce.jsonname
 msgctxt "damage type"
 msgid "Pierce"
-msgstr "Perforacion"
+msgstr "Fhoradura"
 
 #: simulation/data/damage_types/poison.jsondescription
 msgctxt "damage type"
@@ -100,17 +100,17 @@ msgstr "Danho tóxico, cumo l que fhazen las coluobras, las armas venenadas."
 #: simulation/data/damage_types/poison.jsonname
 msgctxt "damage type"
 msgid "Poison"
-msgstr "Toxicidá"
+msgstr "Toxicidade"
 
 #: simulation/data/status_effects/burning.jsonapplierTooltip
 msgctxt "status effect"
 msgid "This unit causes fire damage."
-msgstr "Esta unidá fhaz queimar."
+msgstr "Esta unidade fhaz queimar."
 
 #: simulation/data/status_effects/burning.jsonreceiverTooltip
 msgctxt "status effect"
 msgid "This unit is burning."
-msgstr "Esta unidá sta queimando."
+msgstr "Esta unidade sta queimando."
 
 #: simulation/data/status_effects/burning.jsonstatusName
 msgctxt "status effect"
@@ -120,12 +120,12 @@ msgstr "In tyamas"
 #: simulation/data/status_effects/poisoned.jsonapplierTooltip
 msgctxt "status effect"
 msgid "This unit causes poison damage."
-msgstr "Esta unidá invenena."
+msgstr "Esta unidat invenena."
 
 #: simulation/data/status_effects/poisoned.jsonreceiverTooltip
 msgctxt "status effect"
 msgid "This unit is poisoned."
-msgstr "Esta unidá sta venenada."
+msgstr "Esta unidade sta venenada."
 
 #: simulation/data/status_effects/poisoned.jsonstatusName
 msgctxt "status effect"
@@ -144,7 +144,7 @@ msgstr "Exércitu d’Alexandre Magnu"
 #: simulation/templates/campaigns/army_mace_standard.xml:21
 #: simulation/templates/campaigns/army_spart_hero_leonidas.xml:26
 msgid "This is what an army would look like on the Strat Map."
-msgstr "Ansí ye un exércitu n mapa stratégicu."
+msgstr "Ansí je un exércitu n mapa stratégicu."
 
 #: simulation/templates/campaigns/army_mace_standard.xml:19
 msgid "Army of Macedonia"
@@ -170,7 +170,7 @@ msgstr "Mercadu"
 #: simulation/templates/campaigns/campaign_city_minor_test.xml:22
 #: simulation/templates/campaigns/campaign_city_test.xml:22
 msgid "Settlement"
-msgstr "Assentamiento"
+msgstr "Sitiamiento"
 
 #: simulation/templates/campaigns/campaign_city_minor_test.xml:23
 msgid "Minor Greek Polis"
@@ -178,7 +178,7 @@ msgstr "Micrópolis"
 
 #: simulation/templates/campaigns/campaign_city_minor_test.xml:24
 msgid "This is a minor Greek city."
-msgstr "Esta ye una pequenha polis griega."
+msgstr "Esta je una pequenha polis griega."
 
 #: simulation/templates/campaigns/campaign_city_test.xml:23
 msgid "Greek Polis"
@@ -186,7 +186,7 @@ msgstr "Polis"
 
 #: simulation/templates/campaigns/campaign_city_test.xml:24
 msgid "This is a major Greek city."
-msgstr "Esta ye una gran polis griega."
+msgstr "Esta je una gran polis griega."
 
 #: simulation/templates/campaigns/campaign_religious_test.xml:12
 msgid "Religious Sanctuary"
@@ -497,7 +497,7 @@ msgstr "Goin"
 
 #: simulation/templates/gaia/fauna_rabbit.xml:11
 msgid "Rabbit"
-msgstr "Cunilyu bravu"
+msgstr "Cuniyu bravu"
 
 #: simulation/templates/gaia/fauna_rabbit.xml:12
 msgid "Oryctolagus cuniculus"
@@ -526,7 +526,7 @@ msgstr "Carcharodon carcharias"
 
 #: simulation/templates/gaia/fauna_sheep.xml:17
 msgid "Sheep"
-msgstr "Ovelya"
+msgstr "Oveya"
 
 #: simulation/templates/gaia/fauna_sheep.xml:18
 msgid "Ovis aries"
@@ -644,7 +644,7 @@ msgstr "Gran Pyrámide"
 
 #: simulation/templates/gaia/ruins/pyramid_minor.xml:8
 msgid "Minor Pyramid"
-msgstr "Pyrámide menor"
+msgstr "Pyrámide minor"
 
 #: simulation/templates/gaia/ruins/standing_stone.xml:8
 #: simulation/templates/gaia/treasure/standing_stone.xml:8
@@ -894,7 +894,7 @@ msgstr "Palmeira nana"
 #: simulation/templates/gaia/tree/oak_dead.xml:4
 #: simulation/templates/gaia/tree/oak_new.xml:4
 msgid "Oak"
-msgstr "Carbalyu"
+msgstr "Carbayu"
 
 #: simulation/templates/gaia/tree/oak_holly.xml:4
 #: simulation/templates/gaia/tree/oak_holly_autumn.xml:4
@@ -904,11 +904,11 @@ msgstr "Elzina"
 #: simulation/templates/gaia/tree/oak_hungarian.xml:4
 #: simulation/templates/gaia/tree/oak_hungarian_autumn.xml:4
 msgid "Hungarian Oak"
-msgstr "Carbalyu d’Hungría"
+msgstr "Carbayu d’Hungría"
 
 #: simulation/templates/gaia/tree/oak_large.xml:4
 msgid "Large Oak"
-msgstr "Carbalyon"
+msgstr "Carbayon"
 
 #: simulation/templates/gaia/tree/olive.xml:7
 msgid "Olive"
@@ -953,12 +953,12 @@ msgstr "Pinu bravu"
 #: simulation/templates/gaia/tree/poplar_dead.xml:4
 #: simulation/templates/gaia/tree/poplar_lombardy_autumn.xml:4
 msgid "Poplar"
-msgstr "Txoupu"
+msgstr "Tyoupu"
 
 #: simulation/templates/gaia/tree/poplar_lombardy.xml:4
 #: simulation/templates/gaia/tree/poplar_lombardy_dead.xml:4
 msgid "Black Poplar"
-msgstr "Txoupu nigru"
+msgstr "Tyoupu nigru"
 
 #: simulation/templates/gaia/tree/senegal_date_palm.xml:4
 msgid "Senegal Date Palm"
@@ -1006,23 +1006,23 @@ msgstr "Factoría"
 
 #: simulation/templates/obstructors/placement.xml:10
 msgid "Obstructor"
-msgstr "Obstructor"
+msgstr "Pexhadoria"
 
 #: simulation/templates/obstructors/placement.xml:12
 msgid "Placement obstructor to prevent construction but not movement"
-msgstr "Obstructor que torga l assentamiento de construcciones, pero nun affecta a la mocion d’unidades"
+msgstr "Pexhadoria que torga la construccion, pero nun affecta a l movemiento"
 
 #: simulation/templates/skirmish/structures/default_house_10.xml:5
 msgid ""
 "Changes in a 10-pop house for civilisations with those houses, is deleted "
 "for other civs"
-msgstr "Camuda-se n una casa de 10 pers. a l compartire la cultura de l xhogador, outramiente s’elimina"
+msgstr "Camuda-se n una casa de 10 pers. a l compartire la cultura de l xhogador, outramiente s’esborra"
 
 #: simulation/templates/skirmish/structures/default_house_5.xml:8
 msgid ""
 "Changes in a 5-pop house for civilisations with those houses, is deleted for"
 " other civs"
-msgstr "Camuda-se n una casa de 5 pers. a l compartire la cultura de l xhogador, outramiente s’elimina"
+msgstr "Camuda-se n una casa de 5 pers. a l compartire la cultura de l xhogador, outramiente s’esborra"
 
 #: simulation/templates/special/formations/anti_cavalry.xml:5
 #: simulation/templates/special/formations/testudo.xml:5
@@ -1193,13 +1193,13 @@ msgstr "Structura"
 
 #: simulation/templates/template_unit.xml:39
 msgid "Unit"
-msgstr "Unidá"
+msgstr "Unidade"
 
 #: simulation/templates/template_wallset.xml:9
 #: simulation/templates/template_wallset.xml:11
 msgid "Wall"
-msgstr "Cerca"
+msgstr "Muria"
 
 #: simulation/templates/template_wallset.xml:10
 msgid "Wall off an area."
-msgstr "Cerca terrenos."
+msgstr "Amuria terrenos."

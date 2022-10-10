@@ -37,7 +37,7 @@ msgstr "Un carru que lheva los restos d’una gran lheienda."
 #: simulation/templates/units/han/support_minister.xml:5
 msgctxt "Name of an attack, usually the weapon."
 msgid "Capture"
-msgstr "Posseadura"
+msgstr "Posseu"
 
 #: simulation/templates/template_unit_cavalry.xml:12
 #: simulation/templates/template_unit_infantry.xml:12
@@ -321,7 +321,7 @@ msgstr "Decertador"
 
 #: simulation/templates/template_unit_champion.xml:15
 msgid "Champion Unit"
-msgstr "Unidá decertadora"
+msgstr "Unidade decertadora"
 
 #: simulation/templates/template_unit_champion_cavalry.xml:21
 msgid "Champion Cavalry"
@@ -460,7 +460,7 @@ msgstr "Can béllicu"
 
 #: simulation/templates/template_unit_dog.xml:32
 msgid "Cannot attack Structures, Ships, or Siege Engines."
-msgstr "Nun puode aggredir structuras, barcos nen máchinas."
+msgstr "Nun puode acutir structuras, barcos nen máchinas."
 
 #: simulation/templates/template_unit_dog.xml:34
 msgid "Dog"
@@ -624,7 +624,7 @@ msgstr "Barcu"
 
 #: simulation/templates/template_unit_ship_bireme.xml:50
 msgid "Light Warship"
-msgstr "Navilya"
+msgstr "Naviya"
 
 #: simulation/templates/template_unit_ship_bireme.xml:51
 #: simulation/templates/template_unit_ship_trireme.xml:51
@@ -664,7 +664,7 @@ msgstr "Amburiega"
 
 #: simulation/templates/template_unit_ship_fire.xml:41
 msgid "Unrepairable. Gradually loses health. Can only attack Ships."
-msgstr "Nun ye eguable. Vai perdiendo vitalidá. Solo puode aggredir barcos."
+msgstr "Nun je eguable. Vai perdiendo vitalidade. Solo puode acutir barcos."
 
 #: simulation/templates/template_unit_ship_fire.xml:42
 msgid "Fireship"
@@ -775,7 +775,7 @@ msgstr "Ariete"
 
 #: simulation/templates/template_unit_siege_ram.xml:40
 msgid "Cannot attack Fields or Organic Units."
-msgstr "Nun puode aggredir paniçales nen unidades orgánicas."
+msgstr "Nun puode acutir paniçales nen unidades orgánicas."
 
 #: simulation/templates/template_unit_siege_ram.xml:41
 msgid "Ram"
@@ -1572,7 +1572,7 @@ msgid ""
 "Trade between docks. Garrison a Trader aboard for additional profit (+20% "
 "for each garrisoned). Gather profitable aquatic treasures. Carthaginians "
 "have +25% sea trading bonus."
-msgstr "Commercia entre puortos. Imbarca un commerciante pa mas beneficios (+20% per cada unu imbarcadu). Recobra atyalgas aquáticas.  Los púnicos frúin d’una ventalya de l +25% no commercio marítimo."
+msgstr "Commercia entre puortos. Imbarca un commerciante pa mas beneficios (+20% per cada unu imbarcadu). Recobra atyalgas aquáticas.  Los púnicos frúin d’una ventalya de l +25% nel commercio marítimo."
 
 #: simulation/templates/units/cart/ship_quinquereme.xml:6
 msgid "Ḥameš-Mašōt"
@@ -1819,7 +1819,7 @@ msgid ""
 "Use to boost the efficiency of nearby units and buildings. Garrison within a"
 " building to boost the efficiency of its production queue. Only Han "
 "buildings can garrison ministers."
-msgstr "Usa-lu p’augmentare la efficacia d’unidades & edificios vizinos. Abelluga-lu n edificios p’augmentare la efficacia de la sua riestra de produccion. Solo puoden abellugasse n edificios Hàn."
+msgstr "Usa-lu p’augmentare la efficacia d’unidades & edificios vizinos. Abluga-lu n edificios p’augmentare la efficacia de la sua riestra de produccion. Solo puoden ablogasse n edificios Hàn."
 
 #: simulation/templates/units/han/support_minister.xml:45
 msgid "Minister"
@@ -2307,7 +2307,7 @@ msgstr "Gajendra"
 
 #: simulation/templates/units/maur/champion_infantry_maceman.xml:5
 msgid "Warrior"
-msgstr "Bellator"
+msgstr "Preliador"
 
 #: simulation/templates/units/maur/champion_infantry_maceman.xml:6
 msgid "Yōddha"
@@ -2344,7 +2344,7 @@ msgstr "Aśoka Devānāmpriya"
 msgid ""
 "Hero Special: \"Edicts of Ashoka\" - Edict Pillars of Ashoka can be built "
 "during Ashoka's lifetime."
-msgstr "Specialidá de l heroe: “Edictos d’Áśoka” - Puodes erguer Pilares d’Áśoka mentres Áśoka stea vivu."
+msgstr "Specialidade de l heroe: “Edictos d’Áśoka” - Puodes erguer Pilares d’Áśoka mentres Áśoka stea vivu."
 
 #: simulation/templates/units/maur/hero_chanakya.xml:9
 msgid "Acharya Chanakya"
@@ -2644,7 +2644,7 @@ msgstr "Masiyakara"
 
 #: simulation/templates/units/pers/ship_merchant.xml:10
 msgid "Ionian Trade Ship"
-msgstr "Mercante ioniu"
+msgstr "Mercante joniu"
 
 #: simulation/templates/units/pers/ship_merchant.xml:11
 msgid "Nauš Yauna"
@@ -2694,7 +2694,7 @@ msgstr "Tamkarum Arami"
 msgid ""
 "Trade resources between your own markets and those of your allies. Persians "
 "have a +25% land trading bonus."
-msgstr "Cambia recursos entre mercados proprios & mercados comuñeiros. Los persas frúin d’una ventalya de l +25% no commercio terrestre."
+msgstr "Cambia recursos entre mercados proprios & mercados comuñeiros. Los persas frúin d’una ventalya de l +25% nel commercio terrestre."
 
 #: simulation/templates/units/plane.xml:5
 msgctxt "Name of an attack of a World War II fighter plane."
